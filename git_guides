@@ -59,3 +59,18 @@ git remote add origin https://github.com/user_name/sample.git
 8. Push files from Local Repo to GitHub Repo
 
 git push origin master
+
+
+
+Check which Repo:
+
+nbpacio@CBBY-8285DD1-LX:~/github/repo/sample$ git remote -v
+origin  https://github.com/nbpacio/sample.git (fetch)
+origin  https://github.com/nbpacio/sample.git (push)
+
+Check Git Status:
+
+nbpacio@CBBY-8285DD1-LX:~/github/repo/sample$ git status
+On branch master
+nothing to commit, working tree clean
+nbpacio@CBBY-8285DD1-LX:~/github/repo/sample$
